@@ -1,0 +1,26 @@
+.currentFlag{
+    font-weight: 800;
+}
+
+.coursesContainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.coursesHeading {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.coursesPara{
+    width: 700px;
+    font-size: 20px;
+    text-align: center;
+}

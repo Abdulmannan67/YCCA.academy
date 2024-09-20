@@ -1,0 +1,82 @@
+.PolicyDiv{
+    background-color: black;
+    /* background-image: linear-gradient(135deg, #0c1018 56%, rgba(3, 229, 180, .21) 84%, rgba(3, 132, 254, .63)); */
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 0;
+    display: flex;
+    position: relative;
+}
+.second{
+    margin: 10vh;
+}
+.h1{
+        text-transform: capitalize;
+        padding-right: 300px;
+        font-family: Montserrat, sans-serif;
+        font-size: 5vh;
+    
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        line-height: 10vh;
+}
+.p{
+    
+        color: #6b6b6b;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: justify;
+    
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .table{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+    .img:hover {
+      transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+  
+
+  
+  @media screen and (max-width: 700px) { 
+
+    .NavTop{
+    font-size: 10px;
+   }
+   .h1{
+    font-size: 3vh;
+    display: contents;
+   }
+   .p{
+    font-size: 1.5vh;
+   }
+   .second{
+    margin: 4vh;
+   }
+}
+    @media screen and (max-width: 450px) { 
+
+      .NavTop{
+      font-size: 7px;
+     }
+     .h1{
+      font-size: 13px;
+     }
+     .p{
+      font-size: 10px;
+     }
+    
+  }
